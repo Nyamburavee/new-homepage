@@ -21,7 +21,7 @@ function App() {
 
 
   return (
-    <div className="m-6 md:m-44 bg-offWhite">
+    <div className="m-6 md:mx-28 bg-offWhite">
       
       <Navbar />
       <Main 
