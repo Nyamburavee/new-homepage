@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import Main from './Components/Main';
 import Headlines from './Components/Headlines';
 
+
 function App() {
   const New = [
     {headline: 'Hydrogen VS Electric Cars', info: 'Will hydrogen fueled cars ever catch up to EVs?' },
@@ -20,7 +21,7 @@ function App() {
 
 
   return (
-    <div className="m-6 md:m-10 bg-offWhite md:w-[1400px]">
+    <div className="m-6 md:m-10 bg-offWhite">
       
       <Navbar />
       <Main 
